@@ -14,7 +14,6 @@ def run_game():
     screen = pygame.display.set_mode([gm_settings.screen_width, gm_settings.screen_height])
     pygame.display.set_caption(gm_settings.caption)
 
-    # Instantiate player
     player = Player(screen)
 
 
